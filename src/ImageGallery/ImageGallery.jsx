@@ -40,6 +40,7 @@ export default function ImageGallery({ imgName }) {
      }
    
     if (imgName !== currentName) clearOnNewRequest();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [imgName, page, currentName]);
  
   const clearOnNewRequest = () => {
