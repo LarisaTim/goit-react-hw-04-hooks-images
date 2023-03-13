@@ -8,5 +8,11 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root'),
+  document.getElementById('root')
+);
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    {' '}
+    <App />{' '}
+  </React.StrictMode>
 );
